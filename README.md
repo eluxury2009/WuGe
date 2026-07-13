@@ -7,7 +7,7 @@
 | 目录 | 技能 | 说明 |
 |---|---|---|
 | `SKILL.md` / `README-知识库锻造.md`（仓库根） | obsidian-knowledge-forge「知识库锻造」 | Obsidian 知识库自动管道：inbox 监听 → AI 处理 → 分类 → 双链 → 质量审计（WSL2/Ubuntu，vault 在 I:\ObsidianVaults\MyBrain） |
-| `dify-local-deploy-cn/` | dify-local-deploy-cn「Dify 本地部署避坑」 | 大陆 Win+WSL2+Docker Desktop 本地部署 Dify 的流程与排障手册（镜像源被墙 / sandbox 配置缺失 / 验证假阴性 三连坑） |
+| `docker-local-deploy-cn/` | docker-local-deploy-cn「Docker 本地部署避坑（通用）」 | 大陆 Win+WSL2+Docker Desktop 本地部署**任意服务**的通用避坑（镜像源被墙 / 守护进程 / 拉取限流 / 验证假阴性）；Dify 作为 `examples/dify/` 示例子目录 |
 
 ## 使用方法
 
@@ -16,4 +16,4 @@
    - User 级：`C:\Users\<你>\.workbuddy\skills\`
 3. 重启 WorkBuddy 或重新加载技能，即可触发使用。
 
-> 注意：根目录的 `SKILL.md` 对应「知识库锻造」技能本体；`dify-local-deploy-cn/` 是其独立子技能目录。
+> 注：根目录的 `SKILL.md` 对应「知识库锻造」技能本体；`docker-local-deploy-cn/` 是独立子技能目录（其内含 Dify 示例）。
